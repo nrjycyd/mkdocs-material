@@ -40,6 +40,8 @@ docker run --rm -it \
 services:
   mkdocs:
     image: ghcr.io/nrjycyd/mkdocs-material:latest
+    container_name: mkdocs-material
+    restart: always
     ports:
       - "8000:8000"
     volumes:
