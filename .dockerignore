@@ -1,0 +1,6 @@
+**
+!Dockerfile
+!requirements.txt
+!tests/
+!tests/smoke/
+!tests/smoke/**

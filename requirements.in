@@ -1,0 +1,17 @@
+# 直接依赖；修改后运行 python tools/lock_requirements.py。
+# 基础主题版本由工具从 VERSION 读取，git/imaging/recommended extras 一并锁定。
+mkdocs-macros-plugin==1.3.7
+mkdocs-statistics-plugin==0.1.5
+mkdocs-glightbox==0.4.0
+mkdocs-table-reader-plugin==3.1.0
+markdown-exec==1.12.3
+mkdocs-markmap==2.5.2
+# plantuml + puml_url 对应的是 mkdocs_puml，而非 plantuml-colocator。
+mkdocs_puml==2.3.0
+mkdocs-literate-nav==0.6.3
+mkdocstrings[python]==1.0.6
+mkdocs-minify-plugin==0.8.0
+mkdocs-git-revision-date-localized-plugin==1.6.0
+mkdocs-git-committers-plugin-2==2.5.0
+# PyMdown 12 改变了 SuperFences/Highlight API，当前 markdown-exec/mkdocstrings 不兼容。
+pymdown-extensions==11.0.2

@@ -1,0 +1,30 @@
+site_name: Image smoke test
+site_url: https://example.com/
+theme:
+  name: material
+extra:
+  smoke_message: SMOKE_MACRO_OK
+plugins:
+  - search
+  - macros
+  - glightbox
+  - statistics
+  - table-reader
+  - markdown-exec
+  - markmap
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+      cache:
+        backend: disabled
+  - literate-nav
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["."]
+          options:
+            show_source: false
+            docstring_section_style: spacy
+  - minify:
+      minify_html: true
+markdown_extensions:
+  - pymdownx.superfences
