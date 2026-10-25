@@ -1,5 +1,7 @@
 # mkdocs-material
 
+原版项目：[squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
+
 预装常用插件的 Material for MkDocs 镜像，可直接用于预览和构建文档站点，无需单独安装 Python 或插件。
 
 镜像地址：
