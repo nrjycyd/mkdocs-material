@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-# VERSION 是基础版本的唯一来源；本地构建和 CI 均须传入此参数。
+# VERSION 是基础版本的唯一来源，由 GitHub Actions 读取并传入此参数。
 ARG MKMATERIAL_VERSION
 FROM squidfunk/mkdocs-material:${MKMATERIAL_VERSION}
 
